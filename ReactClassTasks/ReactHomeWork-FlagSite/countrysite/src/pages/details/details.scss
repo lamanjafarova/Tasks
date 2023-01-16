@@ -1,0 +1,36 @@
+.container{
+    .detailPage{
+        display: flex;
+        height: 80vh;
+        .imgArea{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                border: 1px solid black;
+            }
+        }
+        .about{
+            width: 50%;
+            margin: auto;
+            h1{
+            font-size: 32px;
+            color: #111517;        
+            }
+            p{
+                color: #111517;
+            }
+        }
+    }
+    button{
+        width: 136px;
+        height: 40px;
+        background-color: transparent;
+        border: none;
+        &:hover{
+            transition: all 0.4s;
+            background-color: #bcc7cf;
+        }
+    }
+}

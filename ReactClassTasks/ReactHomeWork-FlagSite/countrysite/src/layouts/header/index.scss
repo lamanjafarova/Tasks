@@ -1,0 +1,71 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    #header{
+        height: 80px;
+        background-color: white;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        a{
+            text-decoration: none;
+            h1{
+                color:  #111517;
+                font-size: 24px;
+                padding:24px 0;
+                padding-left: 81px;
+            }
+        }
+        button{
+            border: none;
+            background-color: #FFFFFF;
+            margin-right: 80px;
+            padding: 24px 0;
+        }
+    }
+}
+.dark {
+    background-color:  #202C36;
+    color: #fff;
+    .card-body{
+        background-color:  #2B3844;
+    }
+    #header{
+        background-color:  #2B3844;
+       a{
+        h1{
+            color: #fff;
+        }
+       }
+       button{
+        border: none;
+        background-color: #2B3844;
+        margin-right: 80px;
+        color: white;
+    }
+    }
+    input{
+        background-color: #2B3844;
+    }
+    ::placeholder{
+        color: white;
+    }
+    select{
+        background-color: #2B3844;
+        color: white;
+    }
+    .detailPage{
+        .about{
+            p, h1{
+             color: #FFFFFF !important;
+            }
+         }
+    }
+    .backBtn{
+        color: #FFFFFF;
+    }
+ }
+    .light {
+    background-color: #fff;
+    color: #333;
+    }

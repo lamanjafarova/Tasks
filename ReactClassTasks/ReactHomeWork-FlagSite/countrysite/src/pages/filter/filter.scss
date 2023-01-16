@@ -1,0 +1,16 @@
+.SearchandFilter{
+    display: flex;
+    justify-content: space-between;
+    input{
+        width: 480px;
+        height: 56px;
+        margin: 48px 0;
+        padding-left: 74px;
+    }
+    select{
+        width: 200px;
+        height: 56px;
+        margin: 48px 0;
+        padding-left: 24px;
+    }
+}

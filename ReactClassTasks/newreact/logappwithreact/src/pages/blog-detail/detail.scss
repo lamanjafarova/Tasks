@@ -1,0 +1,33 @@
+.container {
+  .link {
+    text-decoration: none;
+    .data {
+      margin-top: 50px;
+      padding: 25px 15px;
+      margin-bottom: 10px;
+      transition: all 0.35s;
+      &:hover {
+        box-shadow: 1px 0px 5px black;
+      }
+      .title-color {
+        color: rgb(50, 50, 50);
+      }
+      .purple-text {
+        color: rgb(143, 0, 93);
+      }
+      button {
+        padding: 7px 20px;
+        border-radius: 5px;
+        border: none;
+        background-color: rgb(143, 0, 93);
+        color: #fff;
+        cursor: pointer;
+        margin: 10px;
+        &:hover{
+          transition: all 0.5s;
+          background-color: rgb(219, 146, 194);
+        }
+      }
+    }
+  }
+}

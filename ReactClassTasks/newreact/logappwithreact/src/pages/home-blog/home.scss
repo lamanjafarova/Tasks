@@ -1,0 +1,44 @@
+ .container {
+    .box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 80px;
+      form{
+        display: flex;
+        flex-direction: column;
+      }
+  
+      input {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: 347px;
+        height: 30px;
+        border: 1px solid rgba(128, 128, 128, 0.614);
+      }
+      textarea {
+        margin: 15px 0;
+        border: 1px solid rgba(128, 128, 128, 0.614);
+      }
+      button {
+        padding: 7px 20px;
+        border-radius: 5px;
+        border: none;
+        background-color: rgb(143, 0, 93);
+        color: #fff;
+        margin: 10px auto;
+        width: 30%;
+        cursor: pointer;
+        &:hover{
+          transition: all 0.5s;
+          background-color: rgb(219, 146, 194);
+        }
+      }
+      #authors {
+        margin-top: 15px;
+        width: 347px;
+        height: 35px;
+        border: 1px solid rgba(128, 128, 128, 0.614);
+      }
+    }
+  }

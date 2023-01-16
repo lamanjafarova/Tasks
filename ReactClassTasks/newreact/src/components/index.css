@@ -1,0 +1,17 @@
+p{
+    border: 1px solid #ccc;
+    width: 230px;
+    height: 30px;
+    margin: 10px;
+}
+button{
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    height: 30px;
+    width: 30px;
+}
+button:hover{
+    background-color: #ccc;
+    border-color: #ccc;
+}
