@@ -1,0 +1,11 @@
+#homepage{
+    max-width: 1400px;
+    margin: 0 auto;
+    .container{
+        .movie{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+    }
+}
